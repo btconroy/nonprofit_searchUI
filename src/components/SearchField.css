@@ -1,0 +1,52 @@
+#nonprofit {
+    width: 95%;
+    height: 44px;
+    min-width: 250px;
+    padding-left: 15px;
+    border-radius: 28px;
+    border: 2px solid black;
+    color: white;
+    font-size: 1.4rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+#submit-btn {
+    margin: 35px auto 0 auto;
+    width: 128px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 8px;
+    color: purple;
+    transition: .6s;
+    cursor: pointer;
+    display: block;
+}
+#advanced-option {
+    display: block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    float: right;
+}
+#advanced-option::before {
+    content: "Advanced Search";
+    position: absolute;
+    left: -125px;
+    width: 120px;
+
+}
+
+#submit-btn:hover {
+    background-color: purple;
+    color: white;
+}
