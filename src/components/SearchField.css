@@ -9,11 +9,17 @@
     font-size: 1.4rem;
 }
 
-label {
+#search-field__container h1 {
+    color: purple;
+    font-size: 1.8rem;
+}
+
+#search-label {
     display: block;
     font-weight: 600;
     font-size: 1.6rem;
     margin-bottom: 20px;
+    display: none;
 }
 
 #submit-btn {
@@ -37,13 +43,30 @@ label {
     height: 15px;
     margin: 10px;
     float: right;
+    border-radius: 28px;
 }
 #advanced-option::before {
     content: "Advanced Search";
     position: absolute;
-    left: -125px;
+    left: -115px;
     width: 120px;
+    color: purple;
+}
 
+#advanced-option__container {
+    margin: 35px 0;
+    text-align: left;
+}
+
+.advanced-labels {
+    margin-right: 2px;
+    display: block;
+    color: purple;
+}
+
+.adv-options {
+    height: 28px;
+    border-radius: 4px;
 }
 
 #submit-btn:hover {
