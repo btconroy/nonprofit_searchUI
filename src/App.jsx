@@ -9,13 +9,14 @@ function App() {
 
   return (
     <>
-      <img className="logo" src={npSearchLogo} alt="nonprofit search logo" />
-      
-      <SearchField />
-      
+    <div id="nps-background-cover"></div>
+    <img className="logo" src={npSearchLogo} alt="nonprofit search logo" />
+    <div id="search-form__container">
+      <SearchField /> 
       <p className="info">
         Search for nonprofits anywhere in the United States.
       </p>
+    </div>
     </>
   )
 }
