@@ -3,6 +3,7 @@ import npSearchLogo from './assets/nonprofit-search.svg'
 import './App.css'
 
 import SearchField from './components/SearchField'
+import ContentInfo from './components/ContentInfo'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         Search for nonprofits anywhere in the United States.
       </p>
     </div>
+    <ContentInfo />
     </>
   )
 }

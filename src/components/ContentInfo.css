@@ -1,0 +1,24 @@
+#propublica-info__container {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 8;
+    line-height: .5;
+    padding: 0 5px;
+}
+#propublica-info__container img {
+    width: 125px;
+    height: auto;
+    display: inline;
+    margin-right: 8px;
+}
+
+#propublica-info__container p {
+    color: #fff;
+    line-height: 1.2;
+    font-size: small;
+}
+
+#propublica-info__container hr {
+    color: #fff;
+}
