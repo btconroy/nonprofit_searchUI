@@ -1,0 +1,39 @@
+#pagination__container {
+    width: 100%;
+    position:relative; 
+    z-index: 10;
+}
+#pagination__inner-container {
+    background-color: white;
+    position: relative;
+}
+#pagination__number-container {
+    display: inline;
+    margin: 0 8px;
+    padding-left: 35px;
+}
+.pg-num {
+    color: purple;
+    display: inline;
+    font-size: medium;
+    margin: 0 1px;
+}
+.pg-num-current {
+    text-decoration: underline;
+    color: #cf22cf;
+    font-size: medium;
+    display: inline;
+}
+.arrow {
+    display: inline;
+    color: purple;
+    font-weight: bolder;
+    font-size: xx-large;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -10px;
+}
+.pg-num,
+.arrow {
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(245, 245, 245); 
+    border-radius: 6px;
+    padding: 2px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cf22cf; 
+  }
+
+#results__container {
+    width: 750px;
+}
+#results-area,
+#search-area {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+    padding: 35px;
+}
+
+#page-area {
+    margin-top: 16px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    padding: 20px 35px;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+}
+
+#search-area {
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.555);
+}
+
+#results-area {
+    margin-top: 16px;
+    overflow-y: scroll;
+    scrollbar-color: purple white;
+    scrollbar-width: thin;
+    height: 33vh;
+}
+.result-content {
+    border: 1px solid purple;
+    margin: 3px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    color: purple;
+    padding: 35px;
+}
+
+.result-content h3,
+.result-content p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.result-content:hover {
+    border: 1px solid rgb(207, 34, 207);
+    color: rgb(207, 34, 207);
+}

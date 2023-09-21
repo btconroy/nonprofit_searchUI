@@ -5,12 +5,12 @@ export default function ContentInfo() {
     return (
         <div id="propublica-info__container">
 
-            <a href="https://projects.propublica.org/nonprofits/api" target="_blank">
+            <a href="https://projects.propublica.org/nonprofits/api" target="_blank" rel="noreferrer">
                 <img src={propublicaLogo} alt="ProPublica Logo" />
-                <p>Powered by ProPublica's Nonprofit Explorer API</p>
+                <p>Powered by ProPublica&apos;s Nonprofit Explorer API</p>
             </a>
             <hr />
-            <a href="https://www.pexels.com/@matthiaszomer/" target="_blank">
+            <a href="https://www.pexels.com/@matthiaszomer/" target="_blank" rel="noreferrer">
                 <p>Background Image from Matthias Zomer</p>
             </a>
 
