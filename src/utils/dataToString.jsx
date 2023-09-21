@@ -4,8 +4,6 @@ function spaceConvert(str) {
 }
 
 
-
-
 export function dataToString(obj) {
     const queryStr = spaceConvert(obj.query);
     const stateStr = obj.state;
@@ -29,6 +27,4 @@ export function dataToString(obj) {
     uri = uriArr.join('');
 
     return uri
-
-
 }
