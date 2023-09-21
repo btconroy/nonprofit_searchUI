@@ -29,7 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('../public/pexels-matthias-zomer-98014.jpg');
+  background-image: url('/pexels-matthias-zomer-98014.jpg');
   background-size: cover;
   background-position: center;
 }
