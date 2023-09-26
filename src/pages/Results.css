@@ -28,19 +28,17 @@
 #search-area {
     position: relative;
     background-color: #fff;
-    width: 100%;
     z-index: 10;
-    padding: 35px;
+    padding: 25px;
 }
 
 #page-area {
     margin-top: 16px;
     border-bottom-left-radius: 28px;
     border-bottom-right-radius: 28px;
-    padding: 20px 35px;
+    padding: 20px 25px;
     position: relative;
     background-color: #fff;
-    width: 100%;
     z-index: 10;
 }
 
@@ -55,7 +53,7 @@
     overflow-y: scroll;
     scrollbar-color: purple white;
     scrollbar-width: thin;
-    height: 33vh;
+    height: 20vh;
 }
 .result-content {
     border: 1px solid purple;
@@ -75,4 +73,21 @@
 .result-content:hover {
     border: 1px solid rgb(207, 34, 207);
     color: rgb(207, 34, 207);
+}
+
+@media screen and (max-width: 991px) {
+    #results__container {
+        width: 625px;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    #results__container {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 486px) {
+    #results__container {
+        width: 298px;
+    }
 }

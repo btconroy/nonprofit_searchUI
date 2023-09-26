@@ -28,7 +28,9 @@ export default function Pagination(props) {
             <div id="pagination__inner-container">
                 <span className="arrow" role="button">&#9660;</span>
                 <div id="pagination__number-container">
-                    { pageLength > 0 ? addNumbers(pageLength, currentPage) : <span className='pg-num-current'>0</span> }
+                    <div id="pagination__inner-number-container">
+                        { pageLength > 0 ? addNumbers(pageLength, currentPage) : <span className='pg-num-current'>0</span> }
+                    </div>
                 </div>
                 <span className="arrow" role='button'>&#9650;</span>
             </div>

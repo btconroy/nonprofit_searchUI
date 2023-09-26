@@ -11,7 +11,7 @@ export default function ContentInfo() {
             </a>
             <hr />
             <a href="https://www.pexels.com/@matthiaszomer/" target="_blank" rel="noreferrer">
-                <p>Background Image from Matthias Zomer</p>
+                <p>Background Image by Matthias Zomer</p>
             </a>
 
         </div>

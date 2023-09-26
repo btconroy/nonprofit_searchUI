@@ -50,3 +50,8 @@
     width: 235px;
   }
 }
+@media screen and (max-width: 315px) {
+  #search-form__container {
+    padding: 1.2rem;
+  }
+}
