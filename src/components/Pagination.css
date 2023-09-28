@@ -36,6 +36,11 @@
     font-size: medium;
     display: inline;
 }
+
+.pg-num,
+.pg-num-current {
+    padding: 0 2px;
+}
 .arrow {
     display: inline;
     color: purple;
